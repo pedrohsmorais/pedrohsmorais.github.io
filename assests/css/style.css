@@ -458,7 +458,7 @@ img {
 
 .services__container {
     gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .services__content {
@@ -741,7 +741,7 @@ img {
     background-color: var(--text-color-light);
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 350px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -776,10 +776,6 @@ img {
         font-size: .8rem;
     }
 
-    .services__container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
     .services__content {
         padding-right: 3.5rem;
     }
@@ -812,6 +808,10 @@ img {
         display: grid;
         grid-template-columns: .6fr;
         justify-content: center;
+    }
+
+    .services__container {
+        padding: 0 2rem;
     }
 
     .portfolio__content,
@@ -909,6 +909,7 @@ img {
     .services__container {
         grid-template-columns: repeat(3, 218px);
         justify-content: center;
+        padding: 0;
     }
 
     .sevices__icon {
