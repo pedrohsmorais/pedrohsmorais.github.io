@@ -246,6 +246,7 @@ li {
     }
 
     .home {
+        height: 100vh;
         flex-direction: column-reverse;
         gap: 24px;
         padding: 0 0 0 5%;
@@ -266,7 +267,6 @@ li {
         padding: 5%;
         width: auto;
         font-size: 0.6rem;
-        justify-content: space-around;
     }
 
     .link-container {
@@ -288,10 +288,20 @@ li {
         justify-content: center;
         align-items: center;
         gap: 2rem;
+        margin: 5rem 0;
+    }
+
+    .portifolio-titulo {
+        margin: 0.6rem 0 0.5rem;
+    }
+
+    .lyricFind {
+        margin: 0;
     }
 
     .box-container{
-        width: 50vw;
+        width: 60vw;
+        justify-content: space-evenly;
     }
   }
   
