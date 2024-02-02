@@ -216,7 +216,7 @@ li {
     font-size: 2em;
 }
 
-.contato {
+.footer {
     height: 5vh;    
     display: flex;
     align-items: center;
@@ -225,10 +225,14 @@ li {
 }
 
 .link-portifolio-container {
-    margin-top: 36px;
     justify-content: center;
     align-items: center;
-    }
+}
+
+.lyricFind {
+    margin-top: 36px;
+}
+
 
 
 /* Estilos para telas Mobile (Até 480px) */
