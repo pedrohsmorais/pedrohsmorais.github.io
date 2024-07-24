@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro | Dev</title>
+    <link rel="icon" href="/assets/github.png" type="image.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@100;300;400;500;700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <section class="header-container">
+            <p class="logo" alt="Logo PHSM">PHSM</p>
+            <nav>
+                <ul class="navbar">
+                    <li class="navbar-options"><a class="navbar-links" href="index.html">Home</a></li>
+                    <li class="navbar-options"><a class="navbar-links" href="#about">Sobre mim</a></li>
+                    <li class="navbar-options"><a class="navbar-links" href="#portifolio">Portifólio</a></li>
+                    <li class="navbar-options"><a class="navbar-links" href="contato.html">Contato</a></li> <!-- Alterei o link para a seção de contato -->
+                </ul>
+            </nav>   
+        </section>
+        <div class="gray-line"></div>
+    </header>
+
+    <main>
+        <!-- Códigos anteriores -->
+        
+        <!-- Seção de contato -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <h2 class="contact-title">Entre em Contato</h2>
+                <p class="contact-info">Fique à vontade para entrar em contato comigo para oportunidades de colaboração, perguntas ou simplesmente para dizer olá!</p>
+                <form class="contact-form" action="https://formspree.io/seu_email_aqui" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="_replyto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section class="footer">
+            <p>Feito por Pedro Morais.</p>
+        </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/c42450ddf5.js" crossorigin="anonymous"></script>
+</body>
+</html>
